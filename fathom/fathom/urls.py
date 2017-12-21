@@ -5,6 +5,6 @@ urlpatterns = [
     # Examples:
     # url(r'^$', 'fathom.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
+    url(r'^data/',include('data.urls')),
     url(r'^admin/', include(admin.site.urls)),
 ]
